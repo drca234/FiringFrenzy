@@ -13,7 +13,7 @@ public class PlayerProjectileLaser extends GameObject{
 		this.velY = velY + 5;
 	}
 
-	private String projectileFile = "C:\\Users\\Daniel\\Pictures\\Ship2.gif";
+	private String projectileFile = "./Ship2.gif";
 	private ImageIcon projectile = new ImageIcon(projectileFile);
 	
 	public void tick() {

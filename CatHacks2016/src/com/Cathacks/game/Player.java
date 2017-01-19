@@ -15,7 +15,7 @@ public class Player extends GameObject{
 
 	}
 	private Handler handler;
-	private String shipFile = "C:\\Users\\Daniel\\Pictures\\ship1.gif";
+	private String shipFile = "./ship1.gif";
 	private ImageIcon ship = new ImageIcon(shipFile);
 	private int deathCountdown = 160;
 	private int projectileCount = 0;
@@ -57,7 +57,7 @@ public class Player extends GameObject{
 
 	public void shipStatus(){
 		if(HUD.HEALTH == 0){
-			ship = new ImageIcon(new String ("C:\\Users\\Daniel\\Pictures\\ship1Exploding.gif"));
+			ship = new ImageIcon(new String ("./ship1Exploding.gif"));
 			deathCountdown--;
 			if(deathCountdown == 0){
 				handler.removeObject(this);

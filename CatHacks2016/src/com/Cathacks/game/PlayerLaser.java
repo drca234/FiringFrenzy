@@ -17,7 +17,7 @@ public class PlayerLaser extends GameObject{
 	}
 
 	private Player parent;
-	private String projectileFile = "C:\\Users\\Daniel\\Pictures\\ProjectileOrb.gif";
+	private String projectileFile = "./PlayerProjectile1.gif";
 	private ImageIcon projectile = new ImageIcon(projectileFile);
 
 	public void tick() {

@@ -19,7 +19,7 @@ public class BasicEnemy extends GameObject{
 		this.handler = handler;
 	}
 
-	private String enemyFile = "C:\\Users\\Daniel\\Pictures\\XenemyIdle1.gif";
+	private String enemyFile = "./XenemyIdle1.gif";
 	private ImageIcon enemy = new ImageIcon(enemyFile);
 	private int projectileCount = 0;
 	private int health = 20;

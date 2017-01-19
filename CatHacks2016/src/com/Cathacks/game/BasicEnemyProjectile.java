@@ -17,7 +17,7 @@ public class BasicEnemyProjectile extends GameObject{
 	}
 
 	private BasicEnemy parent;
-	private String projectileFile = "C:\\Users\\Daniel\\Pictures\\ProjectileOrb.gif";
+	private String projectileFile = "./ProjectileOrb.gif";
 	private ImageIcon projectile = new ImageIcon(projectileFile);
 
 	public void tick() {
